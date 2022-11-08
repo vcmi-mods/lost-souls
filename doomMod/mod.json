@@ -1,0 +1,17 @@
+{
+	"name" : "LostSouls",
+	"description" : "Mod adds one new neutral creature - Lost Soul",
+	"author" : "speehgee",
+	"version" : "0.1.1",
+	"contact" : "http://forum.vcmi.eu/viewforum.php?f=15",
+	"modType" : "Creatures",
+	"creatures" :
+	[
+		"config/doom/creatures/lostsoul.json"
+	],
+	"changelog" :
+    {
+		"0.1" : ["Initial release"],
+		"0.1.1" : ["fixed advAmount value", "new calculated AI/Fight values"]
+    }  
+}

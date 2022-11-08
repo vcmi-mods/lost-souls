@@ -1,0 +1,63 @@
+{
+	"lostsoul" : 
+	{
+		"name" : { "singular" : "Lost Soul", "plural" : "Lost Souls" },
+		
+		"level" : 1,
+		
+		"faction" : "neutral", 
+		
+		"cost" : { "gold" : 120 },
+		
+		"fightValue" : 80,
+		
+		"aiValue" : 70,
+		
+		"growth" : 20,
+		
+//		"hordeGrowth" : 5,
+	
+		"attack" : 1,
+		
+		"defense" : 3,
+		
+		"hitPoints" : 5,
+		
+		"speed" : 10,
+		
+		"damage" : { "min" : 1,"max" : 2},
+		"advMapAmount" : { "min" : 20,"max" : 30},
+
+		"abilities" :{ "canFly" : { "type" : "FLYING" } },
+
+		"hasDoubleWeek": true,
+		
+		"graphics" :
+		{
+			"animation" : "doom/battle/lsbattle.def",
+
+			"map" : "doom/map/AMdls.def",
+
+			"iconSmall" : "doom/iconssmall/lsoulS.png",
+
+			"iconLarge" : "doom/iconsbig/lsoulB.png",
+
+			"timeBetweenFidgets" : 10,
+
+			"animationTime" : {	"walk" : 1.00, "idle" : 10.00, "attack" : 1.00,"flight" : 1.00 }
+		},
+
+		"sound" : 
+		{
+			"attack": "doom/lostSoul/attack.wav",
+			
+			"defend": "doom/lostSoul/defend.wav",
+
+			"killed": "doom/lostSoul/kill.wav",
+
+			"move": "doom/lostSoul/move.wav",
+
+			"wince": "doom/lostSoul/wince.wav"
+		}
+	}
+}
