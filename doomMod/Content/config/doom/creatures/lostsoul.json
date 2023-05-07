@@ -14,8 +14,6 @@
 		"aiValue" : 70,
 		
 		"growth" : 20,
-		
-//		"hordeGrowth" : 5,
 	
 		"attack" : 1,
 		
@@ -44,7 +42,7 @@
 
 			"timeBetweenFidgets" : 10,
 
-			"animationTime" : {	"walk" : 1.00, "idle" : 10.00, "attack" : 1.00,"flight" : 1.00 }
+			"animationTime" : {	"walk" : 1.00, "idle" : 10.00, "attack" : 1.00 }
 		},
 
 		"sound" : 
