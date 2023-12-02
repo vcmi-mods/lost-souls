@@ -2,7 +2,7 @@
 	"name" : "LostSouls",
 	"description" : "Mod adds one new neutral creature - Lost Soul",
 	"author" : "speehgee",
-	"version" : "0.1.2",
+	"version" : "0.1.3",
 	"contact" : "http://forum.vcmi.eu/viewforum.php?f=15",
 	"modType" : "Creatures",
 	"creatures" :
@@ -13,10 +13,11 @@
     {
 		"0.1" : ["Initial release"],
 		"0.1.1" : ["fixed advAmount value", "new calculated AI/Fight values"],
-		"0.1.2" : ["small update for vcmi-1.2"]
+		"0.1.2" : ["small update for vcmi-1.2"],
+		"0.1.3" : ["small update for vcmi-1.4"]
     },
 	"compatibility" :
 	{
-		"min" : "1.0.0"
+		"min" : "1.4.0"
 	}
 }
